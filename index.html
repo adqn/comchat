@@ -1,0 +1,58 @@
+<html>
+  <title>VANUCHAT</title>
+  <head>
+  <link rel="stylesheet" type="text/css" href="css/default.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+  @font-face {
+    font-family: BebasNeue; 
+    src: url('./fonts/BebasNeue-Regular.ttf');
+    font-weight: bold;
+  }
+
+  h1 {
+    background-image: linear-gradient(#00000054 0px, transparent 1px);
+    background-size: 4px 4px;
+    animation: scanlines 0.9s linear infinite;
+    z-index: 100;
+  }
+  .shadow {
+    background-color: #000000;
+
+}
+.shadow h1 {
+   awidth:200px;
+   aheight:200px;
+   aline-height:200px;
+   atext-align:center;
+    font-family: 'BebasNeue' !important;
+    font-size: 230%;
+    text-shadow: 3px 6px white, 0px -1px white, 0px 1px white, -1px 0px white, 1px 0px white, -1px -1px white, 1px 1px white, -1px 1px white, 1px -1px white;
+    color: black !important;
+}
+
+  </style>
+  </head>
+  <body>
+  <div class="scanline"></div>
+  <div class="shadow">
+    <h1>COMCHAT</h1>
+  </div>
+
+
+  <div id="chatFrame">
+    <div id="messages"></div>
+    <div id="userList"></div>
+    <div id="userArea">
+      <input type="text" id="chatInput"></input>
+      <button id="sendMessage" onclick="sendMessage()">send</button>
+      <button id="chatMenu">menu</button>
+    </div>
+    <br>
+    <text id="status"></text>
+  </div>
+  <script src="./client.js"></script>
+  <script>
+  
+  </body>
+</html>

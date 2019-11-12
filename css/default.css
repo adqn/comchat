@@ -1,0 +1,111 @@
+h1 {
+  font-family: BebasNeue;
+  color: #FFFFFF;
+  margin: auto;
+
+}
+
+#chatframe {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+  font-size: 10pt;
+  width: 510px;
+  background-color: black;
+}
+
+#userList {
+  padding-left: 4px;
+  padding-right: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 200px;
+  width: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #177c68;
+  overflow: auto;
+  overflow-y: auto;
+  overflow-x: auto;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+#messages { 
+  padding-left: 4px;
+  padding-right: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #177c68;
+  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: #FFFFFF;
+  background-color: #000000;
+ 
+}
+
+#userArea {
+  display: inline-block;
+  background-color: black;
+}
+
+#chatInput {
+  display: inline-block;
+  width: 400px;
+  background-color: white;
+}
+
+button {
+  background-color: white;
+}
+
+#status {
+  color: white;
+  float: left; 
+}
+
+privmsg {
+  font-size: 10;
+}
+
+div userMenu {
+  position: fixed;
+  display: inline-block;
+  height: 86px;
+  width: 103px;
+  padding: 1px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  background-color: black;
+  z-index: 1;
+}
+
+div userMenu * {
+  margin: auto;
+  font-size: 10px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  width: 48px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #177c68;
+  background-color: black;
+  z-index: 2;
+}
+
+body {
+  background-color: #000000;
+}
+
+usernames {
+  display: block;
+}
