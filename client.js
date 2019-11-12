@@ -79,7 +79,7 @@ function addMessage(username, message) {
 /////
 
 
-// context menu stuff a huge mess oh god
+// context menu stuff a huge mess
 var usermenu = false;
 
 // handle all mouse events
