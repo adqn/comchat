@@ -1,7 +1,5 @@
 //////
 // chat backend
-// probably the worst code imaginable 
-// well, i did try
 /////
 
 var http = require('http');
@@ -90,7 +88,7 @@ ws.on('request', function (request) {
   });
 });
 
-// lol need to decompose this thing
+// need to decompose this thing
 // return false if no commands
 function checkInput(msg, id) {
   if (msg.match('/[a-z]*')) {
