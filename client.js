@@ -19,7 +19,6 @@ connection.onmessage = function (message) {
   var json = JSON.parse(message.data);
 
   // check json message type, handle accordingly
-  // a bit convoluted 
   switch (json.type) {
     case 'status':
       chatbox.innerHTML += json.data + "<br>";
@@ -79,7 +78,7 @@ function addMessage(username, message) {
 /////
 
 
-// context menu stuff a huge mess
+// context menu stuff
 var usermenu = false;
 
 // handle all mouse events
